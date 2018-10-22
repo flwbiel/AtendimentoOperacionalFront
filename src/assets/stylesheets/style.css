@@ -1,0 +1,10 @@
+@font-face {
+    font-family : "gotham";
+    src: url("../stylesheets/fonts/Gotham-XLight.otf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: gotham; 
+}
