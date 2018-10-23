@@ -37,7 +37,8 @@
                 type="ColumnChart"                     
                 @ready="onChartReady"
                 /> 
-                </div>   
+                </div> 
+                <a v-on:click="dois()"><h1> VER MAIS </h1></a>  
             </div>
             
             <div id="bloco2">
@@ -47,7 +48,8 @@
                 type="ColumnChart"                     
                 @ready="onChartReady"
                 /> 
-                </div>    
+                </div>  
+                <a v-on:click="tres()"><h1> VER MAIS </h1></a>    
             </div>
 
             <div id="bloco2">
@@ -58,6 +60,7 @@
                 @ready="onChartReady"
                 /> 
                 </div> 
+                <a v-on:click="quatro()"><h1> VER MAIS </h1></a>  
             </div>
 
             <div id="nao">
