@@ -114,7 +114,7 @@
     align-content: center; 
     flex-direction: column;
     margin-right: 80px;
-    margin-top: 10px;
+    margin-top: -100px;
     
 }
 #dois, #tres, #quatro, #quinta{
@@ -143,3 +143,62 @@
     margin-top: -5%;
     height:400px;
 }
+
+.ver {
+    text-align: end;
+    margin-top: 20%;
+    margin-right: 10%;
+    font-size: 20px;
+    color: black;
+    transition: 0.2s;
+    
+}
+
+.ver:hover {
+    color: gray;
+    cursor: pointer;
+}   
+
+.verDetalhe {
+    text-align: end;
+    margin-top: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    color: black;
+    transition: 0.2s;
+    
+}
+
+.verDetalhe:hover {
+    color: gray;
+    cursor: pointer;
+}   
+
+select {
+    width: 40%;
+    padding: 16px 20px;
+    margin: 25px;
+    margin-bottom: -100px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    outline:none;
+    position: relative;
+    float: left;
+}
+
+#horario {
+    width: 20%;
+    padding: 16px 20px;
+    margin: 25px;
+    left: 41%;
+    position: relative;
+    float: left;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    outline:none
+}
+
+
+

@@ -26,6 +26,20 @@
 
 
         <!-- Seção dos cards -->
+        <form>
+        <select id="" name="Cliente">
+            <option value="au">Cliente 1</option>
+            <option value="ca">Cliente 2</option>
+            <option value="usa">Cliente 3</option>
+        </select>
+        </form>
+        <form>
+        <select id="horario" name="Hora">
+            <option value="au">Uma hora atrás</option>
+            <option value="ca">Duas horas atrás</option>
+            <option value="usa">Cinco horas atrás</option>
+        </select>
+        </form>
 
         <section id="corpo2"> 
 
@@ -38,7 +52,7 @@
                 @ready="onChartReady"
                 /> 
                 </div> 
-                <a v-on:click="dois()"><h1> VER MAIS </h1></a>  
+                <a v-on:click="dois()"><h1 class="ver"> VER MAIS </h1></a>  
             </div>
             
             <div id="bloco2">
@@ -49,7 +63,7 @@
                 @ready="onChartReady"
                 /> 
                 </div>  
-                <a v-on:click="tres()"><h1> VER MAIS </h1></a>    
+                <a v-on:click="tres()"><h1 class="ver"> VER MAIS </h1></a>    
             </div>
 
             <div id="bloco2">
@@ -60,7 +74,7 @@
                 @ready="onChartReady"
                 /> 
                 </div> 
-                <a v-on:click="quatro()"><h1> VER MAIS </h1></a>  
+                <a v-on:click="quatro()"><h1 class="ver"> VER MAIS </h1></a>  
             </div>
 
             <div id="nao">
