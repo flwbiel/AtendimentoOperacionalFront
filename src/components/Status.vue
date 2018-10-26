@@ -46,27 +46,32 @@
             <!-- Cards -->    
             <div id="bloco2">
                 <div id="app" >
+                <h2> Grafico 1 </h2>                    
                 <GChart  
                 id="dois"        
                 type="ColumnChart"                     
                 @ready="onChartReady"
                 /> 
                 </div> 
+                <p> "Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  </p>
                 <a v-on:click="dois()"><h1 class="ver"> VER MAIS </h1></a>  
             </div>
             
             <div id="bloco2">
                 <div id="app" >
+                <h2> Grafico 2 </h2> 
                 <GChart  
                 id="tres"        
                 type="ColumnChart"                     
                 @ready="onChartReady"
                 /> 
-                </div>  
+                </div>
+                 <p> "Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  </p>  
                 <a v-on:click="tres()"><h1 class="ver"> VER MAIS </h1></a>    
             </div>
 
             <div id="bloco2">
+                <h2> Grafico 3 </h2> 
                 <div id="app" >
                 <GChart  
                 id="quatro"        
@@ -74,6 +79,7 @@
                 @ready="onChartReady"
                 /> 
                 </div> 
+                 <p> "Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."  </p>
                 <a v-on:click="quatro()"><h1 class="ver"> VER MAIS </h1></a>  
             </div>
 

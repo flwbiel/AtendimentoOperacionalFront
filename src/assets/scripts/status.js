@@ -51,6 +51,8 @@ export default {
 
     methods: {
 
+        
+
         dois() {      
             localStorage.setItem('var', "dois")
             router.push({ name: "Detalhe" });
