@@ -20,7 +20,7 @@ export default {
     mounted() {
 
         axios
-            .get("http://192.168.4.92:8081/ABv/RotaTres")
+            .get("http://192.168.4.125:8082/ABv/RotaTres")
             .then(function (response) {
                 console.info(response.data[1].Data.Dados[1]);
 

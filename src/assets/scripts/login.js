@@ -18,7 +18,7 @@ export default {
 
     methods: {
         entrar() {
-            axios.post('http://192.168.4.92:8080/api/v1/jwt', this.login)
+            axios.post('http://192.168.4.125:8081/api/v1/jwt', this.login)
             .then(response => {
                 let token =response.data.token;
             
