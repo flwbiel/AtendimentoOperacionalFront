@@ -5,7 +5,7 @@
   "author": "Matrix Development <matrix.dev@outlook.com.br>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --history-api-fallback --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
@@ -16,9 +16,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "google-charts": "^1.5.0",
+    "quasar-framework": "^0.17.18",
     "save": "^2.3.2",
     "vue": "^2.5.2",
     "vue-google-charts": "^0.3.1",
+    "vue-loading-overlay": "^3.1.0",
     "vue-ripple-directive": "^2.0.1",
     "vue-router": "^3.0.1"
   },

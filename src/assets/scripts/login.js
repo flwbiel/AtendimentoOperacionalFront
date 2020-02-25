@@ -2,6 +2,7 @@ import '@/assets/stylesheets/login.css';
 
 import router from '../../router'
 import axios from 'axios'
+import { ip }  from './ip'
 
 
 
@@ -18,16 +19,16 @@ export default {
 
     methods: {
         entrar() {
-            axios.post('http://192.168.4.125:8081/api/v1/jwt', this.login)
+            axios.post("http://172.16.10.47:8008/api/v1/jwt", this.login)
             .then(response => {
                 let token =response.data.token;
             
             
-            localStorage.setItem('token', token);
+            localStorage.setItem('Authorization', "Bearer " + token);
 
               if(token != null) {
                 console.log("oi");
-                router.push({ name: "Home"});
+                router.push({ name: "Status"});
             } else {
                 console.log("erro")
             }

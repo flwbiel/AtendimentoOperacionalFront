@@ -19,6 +19,14 @@ export default {
       router.push({ name: "Status" });
     },
 
+    home() {
+      router.push({ name: "Home"})
+    },
+
+    search() {
+      router.push({ name: "Search"})
+    },
+
     legstatus() {
       document.getElementById("balao").style.width = "28%";
       document.getElementById("balao").style.height = "120px";
@@ -41,11 +49,15 @@ export default {
     },
 
     sair() {
-      localStorage.setItem("token", null);
+      localStorage.setItem('Authorization', "");
 
       router.push({ name: "Login" });
 
       //  router.push({ name: "Home" });
+    },
+
+    enter() {
+      document.getElementById('fade').style.opacity = "1";
     }
   }
 };
